@@ -1,10 +1,20 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
-	char num[50];
-	scanf("%s", &num);
-	printf("%s", num);
 
 
-	return  0;
+		char str[20];
+		printf("Message = ");
+		scanf_s("%s", str);
+		printf("%s", str);
+
+	
+
+	/*for (int a = 0; a < num[50]; a++)
+	{
+
+	}
+	*/
+		getch();
 }
